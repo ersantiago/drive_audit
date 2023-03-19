@@ -1,5 +1,5 @@
 #====================================================================#
-#                           Drive Audit                              #
+#                     Files directory Audit                          #
 #====================================================================#
 
 Utility to scan a directory recursively and check inside the files for any flagged terms from a list
@@ -7,3 +7,4 @@ Utility to scan a directory recursively and check inside the files for any flagg
 
 1. Supported formats: xlsx, xls, docx, doc, pdf, csv, odf, odt & other plain-text formats (txt, log, ini, cfg, sh, bat)
 2. Output format: fullpath,filename,owner,filetype,timestamp,flag_chk,flagged_terms
+3. Runs recursively
